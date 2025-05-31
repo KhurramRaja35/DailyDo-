@@ -1,0 +1,32 @@
+.card{
+    background-color: #241b31;
+    border-radius: 5px;
+    
+}
+input{
+    outline: none;
+    border-radius: 3px;
+    background-color: #100B18;
+    color: white;
+}
+.icon{
+    width: 40px;
+    background-color: #705591;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: #9f71d8;
+}
+/* .buttons {
+    display: flex;
+    gap: 30px;
+} */
+.texts{
+    color: #705591;
+    background-color: #100B18;
+}
+.completed{
+    background-color: #100B18;
+    color: #588F83;
+}

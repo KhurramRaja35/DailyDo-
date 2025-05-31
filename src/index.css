@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    /* color: white; */
+}
+body{
+    background-color: #100B18;
+    /* background-color: rgba(0, 0, 0, 1); */
+}
+body.dark {
+    background-color: #100B18;
+    color: white;
+  }
+  
+  body.light {
+    background-color: #f0f0f0;
+    color: #333333;
+  }
+
+  
+  .dark nav {
+    background-color: #241b31;
+  }
+  
+  .dark .card {
+    background-color: #241b31;
+  }
+  
+  .dark input {
+    background-color: #100B18;
+    color: white;
+  }
+  
+  .dark .icon {
+    background-color: #705591;
+  }
+  
+  .dark .icon:hover {
+    background-color: #9f71d8;
+  }
+  
+  .dark .texts {
+    background-color: #100B18;
+    color: #705591;
+  }
+  
+  .dark .completed {
+    background-color: #100B18;
+    color: #588F83;
+  }
+  .dark .icon svg {
+    color: white;
+  }
+  .dark .buttons svg {
+    color: white;
+  }
+  
+  .light .buttons svg {
+    color: #333333;
+  }
+  
+  .dark .completed + .flex svg {
+    color: #ef4444; /* Red-400 */
+  }
+
+
+/* light theme */
+/* Light Theme Styles */
+
+
+/* Navbar in Light Theme */
+.light nav {
+    background-color: #565058; /* Light background for navbar */
+    /* #e0d7e5 */
+}
+
+/* Card in Light Theme */
+.light .card {
+    background-color: #ffffff; /* White card background */
+}
+
+/* Input in Light Theme */
+.light input {
+    background-color: #f0f0f0; /* White input background */
+    color: #333333; /* Dark text */
+}
+
+/* Icon button in Light Theme */
+.light .icon {
+    background-color: #6b4f96; /* Soft purple */
+}
+
+.light .icon:hover {
+    background-color: #9f71d8; /* Hover color */
+}
+
+/* Text color for todo in Light Theme */
+.light .texts {
+    background-color: #ffffff; /* White background */
+    color: #6b4f96; /* Soft purple text */
+}
+
+/* Completed task in Light Theme */
+.light .completed {
+    background-color: #f0f0f0; /* Light background */
+    color: #6a8f58; /* Greenish completed task text */
+}
+.light h1, 
+.light h2, 
+.light p {
+    color: #333333; /* Dark text for headings and paragraphs */
+}
+
+.light .mainInput input{
+    outline: black;
+}
+
+.light .icon svg {
+    color: #333333;
+  }
+  .light .completed + .flex svg {
+    color: #f87171; /* Lighter red for light theme */
+  }
