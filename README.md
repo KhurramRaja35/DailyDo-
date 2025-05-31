@@ -1,12 +1,28 @@
-# React + Vite
+# 📝 Daily Do - To-Do List App
+Daily Do is a modern and responsive To-Do List application built with React.js and Tailwind CSS, and deployed via Netlify. It helps users stay organized by allowing them to easily create, manage, and track daily tasks with a clean and intuitive interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔧 Features
+✅ Add, edit, and delete tasks
 
-Currently, two official plugins are available:
+🌗 Light/Dark theme toggle (saved in localStorage)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Mark tasks as completed or pending
 
-## Expanding the ESLint configuration
+🧹 Clear all completed tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚡ Smooth and responsive UI/UX
+
+☁️ Deployed on Netlify for instant access
+
+## 🚀 Tech Stack
+Frontend: React.js
+
+Styling: Tailwind CSS
+
+Deployment: Netlify
+
+## 🔗 Live Demo
+👉 Click here to try it live
+```
+Replace the link with your actual Netlify URL.
+```
