@@ -24,5 +24,5 @@ Deployment: Netlify
 ## 🔗 Live Demo
 👉 Click here to try it live
 ```
-Replace the link with your actual Netlify URL.
+https://daily-do-tm.netlify.app/
 ```
